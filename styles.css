@@ -155,12 +155,20 @@
   line-height: 1.6;
 }
 @media (max-width: 768px) {
-  .nav-btn {
-    padding: 15px 25px;
-    font-size: 16px;
+  .standard-header {
+    flex-direction: column;
+    padding: 10px;
   }
   
   .standard-header nav {
-    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
   }
 }
