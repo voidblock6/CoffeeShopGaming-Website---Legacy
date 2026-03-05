@@ -11,7 +11,7 @@
      body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        background: #f4f6f9; 
+        background: var(--bg-color);
     }
 
     .nav-btn:hover {
@@ -37,6 +37,7 @@
         <button class="nav-btn" onclick="window.location.href='index.html'">Home</button>
         <button class="nav-btn" onclick="window.location.href='picture_libary.html'">Library</button>
         <button class="nav-btn" onclick="window.location.href='contact_us.html'">Contact Us</button>
+        <button class="nav-btn" id="theme-toggle">Theme</button>
     </nav>
 </header>
 <br>
@@ -98,6 +99,7 @@
 
 </div>
 
+<script src="darkmode.js"></script>
 </body>
 </html>
 

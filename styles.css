@@ -58,7 +58,7 @@
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 30px
 }
 
 .contact-card:nth-child(3),
@@ -78,7 +78,8 @@
 }
 
 .contact-card {
-  background: white;
+  background: linear-gradient(90deg, rgb(68, 165, 207) 0%, rgb(53, 143, 191) 50%, rgb(120, 161, 215) 100%);
+  color: white;
   padding: 40px;
   width: 320px;
   border-radius: 15px;
@@ -197,4 +198,27 @@
   font-weight: bold;
 }
 
+/* light and dark mode */
+:root {
+  --bg-color: #f4f6f9;
+  --text-color: #333333;
+  
+  .darkcontact {
+    color:#000;
+  }
+}
+
+
+body.dark-mode {
+  --bg-color: #1a2332;
+
+  .darkcontact {
+     color: white;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
 
