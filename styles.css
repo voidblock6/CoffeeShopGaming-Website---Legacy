@@ -142,6 +142,7 @@
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  
 }
 
 .index-card h2 {
@@ -196,13 +197,18 @@
   font-size: 18px; 
   line-height: 1.6;
   font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.staff-card:hover {
+  transform: translateY(-5px);
 }
 
 /* light and dark mode */
 :root {
   --bg-color: #f4f6f9;
   --text-color: #333333;
-  
+
   .darkcontact {
     color:#000;
   }
@@ -222,3 +228,9 @@ body {
   color: var(--text-color);
 }
 
+  .library-picture img {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
