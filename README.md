@@ -8,6 +8,6 @@ This was my first ever website originally made for a school project but with rea
 check the legacy website via [https://voidblock6.github.io/CoffeeShopGaming-Website---Legacy/].
 
 ## Used languages
--CSS
--HTML5
--Javascript
+- CSS
+- HTML5
+- Javascript
